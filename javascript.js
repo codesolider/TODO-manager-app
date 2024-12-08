@@ -53,8 +53,7 @@ todoForm.addEventListener('submit', (event) => {
     updateToDosUI()
 })
 
-clearAll.addEventListener('click', (event) => {
-    event.preventDefault();
+clearAll.addEventListener('click', () => {
     listElement.innerHTML = '';
     todos = [];
 })
